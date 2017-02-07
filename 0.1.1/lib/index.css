@@ -1,0 +1,49 @@
+/* The CSS specification: https://github.com/fast-flow/trees */
+html .r-fixed--fixed {
+    position: fixed;
+    top:0;
+    left:0;
+}
+html .r-fixed--absolute {
+    position: absolute;
+    left:0;
+    top:0;
+}
+.r-fixed {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.r-fixed-head {
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+}
+.r-fixed-foot {
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+}
+.r-fixed-left {
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+}
+.r-fixed-right {
+    position: absolute;
+    right:0;
+    top:0;
+    height: 100%;
+}
+
+.r-fixed-cnt {
+    height: 100%;
+    overflow: auto;
+}
+.r-fixed-space {
+    height: 100%;
+    box-sizing: border-box;
+}
